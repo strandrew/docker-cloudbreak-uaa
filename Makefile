@@ -1,4 +1,4 @@
-IMAGE = hortonworks/cloudbreak-uaa
+IMAGE = strsoftware/uaa
 TAG = $(shell git  describe --tags --abbrev=0)
 UNAME = $(shell uname)
 
