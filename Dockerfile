@@ -1,5 +1,5 @@
 FROM java:openjdk-8u66-jre
-MAINTAINER STR Software
+MAINTAINER STR Software 
 
 ENV UAA_CONFIG_PATH /uaa
 ENV CATALINA_HOME /tomcat
@@ -11,7 +11,7 @@ RUN chmod +x /tmp/run.sh
 RUN wget -q https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz
 RUN wget -qO- https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.0.M9/bin/apache-tomcat-9.0.0.M9.tar.gz.md5 | md5sum -c -
 
-RUN tar zxf apache-tomcat-9.0.0.M9tar.gz
+RUN tar zxf apache-tomcat-9.0.0.M9.tar.gz
 RUN rm apache-tomcat-9.0.0.M9.tar.gz
 
 RUN mkdir /tomcat
