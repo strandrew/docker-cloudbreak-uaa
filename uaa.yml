@@ -18,7 +18,7 @@ oauth:
       authorized-grant-types: authorization_code
       scope: myresourceserver.scope1,myresourceserver.scope2,openid,password.write
       authorities: uaa.none
-      redirect-uri: http://localhost:3000/authorize
+      redirect-uri: http://localhost:8080/login
     myresourceserver:
       id: myresourceserver
       secret: changemetoo
