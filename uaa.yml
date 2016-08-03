@@ -36,6 +36,6 @@ scim:
   username_pattern: '[a-z0-9+\-_.@]+'
   users:
     - admin@strsoftware.com|password|admin@strsoftware.com|STR|Admin|openid,myresourceserver.scope1,myresourceserver.scope2
-
-branding:
-  companyName: STR Software
+login:
+  branding:
+    companyName: STR Software
